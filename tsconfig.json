@@ -22,10 +22,15 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "outDir": "./resources/lambda/dist",
   },
+  "include": [
+    "resources/lambda/**/*.ts"
+  ],
   "exclude": [
     "node_modules",
-    "cdk.out"
+    "cdk.out",
+    "resources/lambda/dist"
   ]
 }

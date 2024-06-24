@@ -1,0 +1,57 @@
+{
+  "version": "1",
+  "commands": [
+    {
+      "name": "hello",
+      "description": "Say Hello! 2",
+      "type": 1
+    },
+    {
+      "name": "goodbye",
+      "description": "Say Goodbye!",
+      "type": 1
+    },
+    {
+      "name": "new-game",
+      "description": "Start a new game",
+      "type": 1,
+      "options": [
+        {
+          "type": 3,
+          "name": "game",
+          "description": "The game to play",
+          "required": true,
+          "choices": [
+            {
+              "name": "Tetris",
+              "value": "tetris"
+            },
+            {
+              "name": "Chess",
+              "value": "chess"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random-number",
+      "description": "Get a random number in a range",
+      "type": 1,
+      "options": [
+        {
+          "type": 4,
+          "name": "min",
+          "description": "The minimum number",
+          "min_value": 0
+        },
+        {
+          "type": 4,
+          "name": "max",
+          "description": "The maximum number",
+          "max_value": 100
+        }
+      ]
+    }
+  ]
+}

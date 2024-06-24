@@ -1,0 +1,22 @@
+{
+  "name": "game-bot-lambda-fn",
+  "version": "1.0.0",
+  "description": "Discord bot for games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.138"
+  },
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^2.1.1",
+    "discord-api-types": "^0.37.86",
+    "i": "^0.3.7",
+    "npm": "^10.8.1",
+    "source-map-support": "^0.5.21",
+    "tweetnacl": "^1.0.3"
+  }
+}
